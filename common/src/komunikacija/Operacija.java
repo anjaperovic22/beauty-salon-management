@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+package komunikacija;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author Admin
+ */
+public enum Operacija implements Serializable{
+    LOGIN,
+    VRATI_LISTU_SVIH_KLIJENATA,
+    OBRISI_KLIJENTA,
+    KREIRAJ_KLIJENTA,
+    IZMENI_KLIJENTA, 
+    OBRISI_KOZMETICARA, 
+    VRATI_LISTU_SVIH_KOZMETICARA, 
+    VRATI_LISTU_SVIH_KATEGORIJA, 
+    KREIRAJ_KOZMETICARA,
+    IZMENI_KOZMETICARA,
+    UBACI_SMENU, 
+    VRATI_LISTU_SVIH_SMENA, 
+    VRATI_LISTU_SVIH_EVIDENCIJA_TERMINA, 
+    VRATI_LISTU_SVIH_STAVKI_EVIDENCIJA_TERMINA,
+    VRATI_LISTU_STAVKI_ZA_EVIDENCIJU,
+    OBRISI_EVIDENCIJU_TERMINA,
+    KREIRAJ_EVIDENCIJU_TERMINA, 
+    OBRISI_STAVKU_EVIDENCIJE_TERMINA, 
+    IZMENI_STAVKU_EVIDENCIJE_TERMINA, 
+    IZMENI_EVIDENCIJU_TERMINA, 
+    UBACI_STAVKU_EVIDENCIJE_TERMINA, 
+    VRATI_LISTU_SVIH_RADNIKA, 
+    PRETRAZI_EVIDENCIJE_TERMINA, 
+    PRETRAZI_EVIDENCIJE_TERMINA2;
+}

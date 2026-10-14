@@ -1,0 +1,15 @@
+# NetBeans / Ant build output
+**/build/
+**/dist/
+**/nbproject/private/
+*.class
+
+# Third-party jars (download the MySQL connector into server/lib/, see README)
+server/lib/*.jar
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
